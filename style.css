@@ -1,0 +1,25 @@
+body{color: #708090;
+    background: #FFF0F5;
+    font-size: 25px;
+    line-height: 1.5;
+    margin: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.ja{width: 150px;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;    
+}
+
+h1,
+a {color:#DB7093;
+}
+
+
+h1{font-size: 40px;
+    margin: 20px;
+    text-align: left
+}
+
+p{padding: 20px}
