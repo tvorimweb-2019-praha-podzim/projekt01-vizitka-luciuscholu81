@@ -1,45 +1,86 @@
-<!--
-Vytvoř osobní vizitku se:
-
-- jménem,
-- krátkým odstavcem o sobě,
-- odkazem na svůj profil,
-- vlastní fotkou (aby tě lektoři poznali),
-- odkazem na svůj e-mail.
-
-Vizitku ostyluj pomocí CSS:
-
-- Nastav barvu pozadí, popředí
-- Uprav velikost písma, zarovnání textu
-- Přidej si vlastní písmo např. z Google Fonts
-- Další vlastnosti dle vlastního uvážení
-
-Tip: Webdesign In 4 Minutes https://jgthms.com/web-design-in-4-minutes/
--->
-
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=latin-ext"
+        rel="stylesheet">
 
     <title>Vizitka</title>
 </head>
+
+
 <body>
-    
-<h1>Ahoj, jsem Lucie Rychetská</h1>
 
-<img class="ja" src="lur.jpg" alt="foto Lucie Rychetska">
+    <header class="vizitka">
+        <h1>Lucie Rychetská</h1>
+    </header>
 
-<p>Momentálně jsem plně zaměstnána na mateřské dovolené. Před tím jsem pracovala jako analytik majetkových účtů.<br>
-    Volný čas ráda trávím výrobou hraček, fotografovaním nebo objevováním nových míst.  </p>
 
-<p>Více se o mně můžete dozvědet na <a href="https://www.facebook.com/svobodova.lucie">Facebooku</a>, nebo mě kontaktujte na <a href="mailto:lrychetska@gmail.com">lrychetska@gmail.com</a></p>
+    <!--Menu-->
+    <ul class="menu">
+        <li><a href="#omne">O mně</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
 
+
+    </ul>
+
+
+    <!--sekce O mne-->
+    <section class="omne" id="omne">
+        <h2>O mně</h2>
+        <img class="ja" src="lur.jpg" alt="foto Lucie Rychetska">
+
+        <p>Ahoj, jmenuji se Lucie. Momentálně jsem plně zaměstnána na mateřské dovolené.<br>
+             Před tím jsem pracovala jako analytik majetkových účtů.
+
+        </p>
+
+
+
+    </section>
+
+
+    <section class="hackovani">
+        <h2>Výroba hraček</h2>
+      <img class="hracky" src="hracka1.jpg" alt="foto lalylala">
+        <p>Ve volném čase mě pravděpodobně nachytáte s háčkem v ruce, jak pro děti vyrábím hračky.</p>
+
+    </section>
+
+
+    <section class="foceni">
+        <h2>Fotografování a příroda</h2>
+        <img class="foto" src="kachna.jpg" alt="foto kachna">
+        <p>Mezi mé velké záliby patří fotografování a příroda, což se skvěle vzájemně doplňuje.</p>
+
+    </section>
+
+
+
+    <section class="peceni">
+            <h2>Pečení</h2>
+        <img class="macron" src="jidlo.jpg" alt="foto macrone">
+        <p>Také jsem propadla kouzlu makronek a neustále se snažím najít ten nejlepší recept a postup.</p>
+
+    </section>
+
+
+
+
+
+
+
+
+    <!--sekce paticka-->
+    <footer class="paticka">
+        <p> © 2019, Lucie Rychetská</p>
+    </footer>
 
 </body>
+
 </html>

@@ -1,25 +1,90 @@
-body{color: #708090;
-    background: #FFF0F5;
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    margin: 0;
+    border: solid;
+    border-color: white;
+    border-radius: 3px;
+    display: inline;
+    padding: 20px 80px;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    font-size: 30px;
+    padding: 20px 30px;
+
+}
+
+.vizitka {
+    background-image: url(hlavicka.jpg);
+    padding: 150px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #A6ACAF;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
     font-size: 25px;
-    line-height: 1.5;
-    margin: 20px;
-    font-family: 'Ubuntu', sans-serif;
+    padding: 20px 30px;
+    display: inline-block;
 }
 
-.ja{width: 150px;
+a:hover, a:focus, a:active {
+    background-color: #A3E4D7;
+}
+
+.paticka {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #A6ACAF;
+}
+
+.spojeni {
+    padding: 20px, 30px;
+    margin: 50px;
+}
+
+.ja, .hracky, .foto, .macron {
+    width: 150px;
     border-radius: 10px;
-    float: left;
-    margin: 20px;    
-}
-
-h1,
-a {color:#DB7093;
-}
-
-
-h1{font-size: 40px;
     margin: 20px;
-    text-align: left
+    border: solid;
+    border-color: #A6ACAF;
+    float: left;
+    margin: 0 30px 30px 0;
 }
 
-p{padding: 20px}
+.omne,
+.hackovani,
+.foceni,
+.peceni{
+    line-height: 2;
+    padding: 20px 5px;
+    margin: 20px 50px;
+}
+
+section{
+    padding:50px 15%;
+    overflow: auto;
+}
+
